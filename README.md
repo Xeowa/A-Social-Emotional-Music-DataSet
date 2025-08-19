@@ -1,5 +1,5 @@
 # SEM Music Dataset: A Dataset for Social-Emotional Music Classification
-
+[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-View%20Dataset-blue?logo=kaggle)](https://www.kaggle.com/datasets/xeowayeh/social-emotional-music)
 ## Abstract
 
 The Social-Emotional Music (SEM) Dataset represents a novel contribution to music information retrieval research, specifically addressing the intersection of music psychology and social-emotional learning (SEL). This curated collection provides music tracks systematically categorized according to three fundamental emotional competencies: **Positive Outlook**, **Problem-Solving**, and **Empathy**. 
