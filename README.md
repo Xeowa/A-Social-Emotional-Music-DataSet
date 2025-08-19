@@ -93,3 +93,8 @@ If you use the SEM Dataset in your research, please cite:
 This research was supported by [Funding Sources]. We acknowledge the contributions of domain experts in music psychology and education who participated in the annotation process, as well as [Institution] for computational resources and infrastructure support.
 
 The development of this dataset reflects collaborative efforts across disciplines, demonstrating the value of interdisciplinary approaches to complex research questions at the intersection of music, psychology, and technology.
+
+## Contact
+If you have any questions regarding the SEM Music Dataset or related research, please feel free to contact:  
+
+📧 Prof. Shanken — shanken@cycu.edu.tw
