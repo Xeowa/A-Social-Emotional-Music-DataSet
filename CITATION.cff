@@ -1,1 +1,11 @@
+Citation and Usage
+If you use the SEM Dataset in your research, please cite:
 
+@dataset{sem_music_dataset_2025,
+  title={SEM Music Dataset: A Dataset for Social-Emotional Music Classification},
+  author={[Authors]},
+  year={2025},
+  publisher={[Publisher]},
+  version={1.0},
+  doi={[DOI_NUMBER]}
+}
