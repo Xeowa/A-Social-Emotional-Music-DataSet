@@ -3,9 +3,10 @@
 
 ## Get the Data
 - **Kaggle page**: https://www.kaggle.com/datasets/xeowayeh/social-emotional-music
+
 ## Abstract
 
-The Social-Emotional Music (SEM) Dataset represents a novel contribution to music information retrieval research, specifically addressing the intersection of music psychology and social-emotional learning (SEL). This curated collection provides music tracks systematically categorized according to three fundamental emotional competencies: **Positive Outlook**, **Problem-Solving**, and **Empathy**. 
+The Social-Emotional Music (SEM) Dataset represents a novel contribution to music information retrieval research, specifically addressing the intersection of music psychology and social-emotional learning (SEL). This curated collection provides music tracks systematically categorized according to three fundamental emotional competencies: **Outlook**, **Problem-Solving**, and **Empathetic Perspective-Taking**.
 
 Unlike traditional music datasets that focus primarily on genre classification or basic emotional valence, the SEM Dataset bridges the gap between low-level acoustic features and high-level psychological constructs. The dataset was developed through interdisciplinary collaboration between musicologists, psychologists, and educational researchers to support empirical investigation of music's role in social-emotional development and therapeutic applications.
 
@@ -27,10 +28,10 @@ The SEM Dataset provides a standardized resource for researchers investigating t
 The three-category framework reflects established constructs in social-emotional learning theory:
 
 | Category | Tracks | Duration   | Theoretical Foundation |
-|----------|--------|------------|----------------------|
-| **Positive Outlook** | 147    | 1.23 hours | Promotes optimistic cognition through melodic coherence, tonal stability, and harmonic consonance |
-| **Problem Solving** | 138    | 1.15 hours | Enhances analytical thinking through structural complexity, tension-resolution patterns, and cognitive engagement |
-| **Empathy** | 134    | 1.12 hours | Facilitates perspective-taking through polyphonic textures, voice leading, and interpersonal musical dialogue |
+|----------|--------|------------|-------------------------|
+| **Outlook** | 147    | 1.23 hours | Promotes optimistic cognition through melodic coherence, tonal stability, and harmonic consonance |
+| **Problem-Solving** | 138    | 1.15 hours | Enhances analytical thinking through structural complexity, tension-resolution patterns, and cognitive engagement |
+| **Empathetic Perspective-Taking** | 134    | 1.12 hours | Facilitates perspective-taking through polyphonic textures, voice leading, and interpersonal musical dialogue |
 
 ## Methodological Framework
 
@@ -38,7 +39,7 @@ The three-category framework reflects established constructs in social-emotional
 
 Track selection was guided by established theories in music cognition and educational psychology. Each category represents specific psychological mechanisms:
 
-**Positive Outlook**: Based on research linking melodic fluency and tonal stability to mood enhancement. Selected tracks demonstrate characteristics associated with stress reduction and positive affect, including:
+**Outlook**: Based on research linking melodic fluency and tonal stability to mood enhancement. Selected tracks demonstrate characteristics associated with stress reduction and positive affect, including:
 - Predictable melodic patterns that reduce cognitive load
 - Consonant harmonic progressions that create emotional stability
 - Moderate tempo ranges conducive to relaxation responses
@@ -48,7 +49,7 @@ Track selection was guided by established theories in music cognition and educat
 - Logical developmental processes leading to resolution
 - Balanced complexity that engages without overwhelming cognitive resources
 
-**Empathy**: Informed by research on musical perspective-taking and social cognition. Selection emphasized:
+**Empathetic Perspective-Taking**: Informed by research on musical perspective-taking and social cognition. Selection emphasized:
 - Polyphonic textures requiring attention to multiple musical "voices"
 - Interactive musical elements suggesting dialogue or conversation
 - Emotional narrative arcs that model empathetic responses
@@ -58,10 +59,10 @@ Track selection was guided by established theories in music cognition and educat
 The SEM Dataset supports multiple research paradigms:
 
 ### Primary Applications
-- **Classification Research**: Automatic categorization of music by social-emotional impact
-- **Music Therapy Studies**: Evidence-based music selection for therapeutic interventions
-- **Educational Technology**: Intelligent music recommendation for social-emotional learning
-- **Cognitive Science**: Investigation of music-emotion relationships
+- **Classification Research**: Automatic categorization of music by social-emotional impact  
+- **Music Therapy Studies**: Evidence-based music selection for therapeutic interventions  
+- **Educational Technology**: Intelligent music recommendation for social-emotional learning  
+- **Cognitive Science**: Investigation of music-emotion relationships  
 
 ## Citation and Usage
 
@@ -76,20 +77,6 @@ If you use the SEM Dataset in your research, please cite:
   version={1.0},
   doi={[DOI_NUMBER]}
 }
-```
-
-## Licensing and Distribution
-
-**License**: Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-
-**Usage Rights**:
-- ✅ Academic research and educational use
-- ✅ Modification and redistribution with attribution  
-- ✅ Integration into derivative works for non-commercial purposes
-- ⚠️ Attribution to original dataset required
-- ⚠️ Modified versions must be clearly indicated
-- ❌ Commercial use is not permitted
-
 
 ## Acknowledgments
 
