@@ -77,7 +77,7 @@ If you use the SEM Dataset in your research, please cite:
   version={1.0},
   doi={[DOI_NUMBER]}
 }
-
+```
 ## Acknowledgments
 
 This research was supported by [Funding Sources]. We acknowledge the contributions of domain experts in music psychology and education who participated in the annotation process, as well as [Institution] for computational resources and infrastructure support.
