@@ -1,90 +1,74 @@
-# SEM Music Dataset: A Dataset for Social-Emotional Music Classification
-[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-View%20Dataset-blue?logo=kaggle)](https://www.kaggle.com/datasets/xeowayeh/social-emotional-music)
+# SEM Music Dataset
 
-## Get the Data
-- **Kaggle page**: https://www.kaggle.com/datasets/xeowayeh/social-emotional-music
+The **SEM Music Dataset** is a curated collection of 419 music tracks organized into three project-defined social-emotional labels. It is intended for exploratory work in music information retrieval, audio classification, and educational technology.
 
-## Abstract
+> **Data access:** The dataset files are hosted on [Kaggle](https://www.kaggle.com/datasets/xeowayeh/social-emotional-music). This GitHub repository is the documentation and citation entry point.
 
-The Social-Emotional Music (SEM) Dataset represents a novel contribution to music information retrieval research, specifically addressing the intersection of music psychology and social-emotional learning (SEL). This curated collection provides music tracks systematically categorized according to three fundamental emotional competencies: **Outlook**, **Problem-Solving**, and **Empathetic Perspective-Taking**.
+## Dataset overview
 
-Unlike traditional music datasets that focus primarily on genre classification or basic emotional valence, the SEM Dataset bridges the gap between low-level acoustic features and high-level psychological constructs. The dataset was developed through interdisciplinary collaboration between musicologists, psychologists, and educational researchers to support empirical investigation of music's role in social-emotional development and therapeutic applications.
+| Item | Value |
+| --- | --- |
+| Tracks | 419 WAV files |
+| Approximate duration | 3.5 hours |
+| Approximate download size | 2.5 GB |
+| Reported sample rate | 44.1 kHz |
+| Version | 1.0 |
+| Published | 2025 |
 
-## Dataset Overview
+The three labels and their reported item counts are:
 
-The SEM Dataset provides a standardized resource for researchers investigating the relationship between musical structure and psychological impact, with potential applications in music therapy, educational technology, and affective computing.
+| Label | Tracks | Operational meaning used in this dataset |
+| --- | ---: | --- |
+| Outlook | 147 | Music selected to represent a positive or forward-looking emotional direction |
+| Problem-Solving | 138 | Music selected to represent persistence, reflection, or working through difficulty |
+| Empathetic Perspective-Taking | 134 | Music selected to represent emotional understanding or consideration of another perspective |
 
-| Property | Value        |
-|----------|--------------|
-| Total Tracks | 419          |
-| Total Duration | 3.5 hours    |
-| Audio Format | WAV          |
-| Sample Rate | 44.1 kHz     |
-| Total Size | 2.5 GB       |
-| License | CC BY-NC 4.0 |
+These labels are project-specific organizational categories. They are not clinical diagnoses, validated psychological measurements, or claims about a listener's response.
 
-### Categorical Framework
+## Intended uses
 
-The three-category framework reflects established constructs in social-emotional learning theory:
+- Exploratory audio-feature analysis and visualization
+- Baseline music-label classification experiments
+- Prototyping music recommendation or educational interfaces
+- Reproducible coursework and research-method demonstrations
 
-| Category | Tracks | Duration   | Theoretical Foundation |
-|----------|--------|------------|-------------------------|
-| **Outlook** | 147    | 1.23 hours | Promotes optimistic cognition through melodic coherence, tonal stability, and harmonic consonance |
-| **Problem-Solving** | 138    | 1.15 hours | Enhances analytical thinking through structural complexity, tension-resolution patterns, and cognitive engagement |
-| **Empathetic Perspective-Taking** | 134    | 1.12 hours | Facilitates perspective-taking through polyphonic textures, voice leading, and interpersonal musical dialogue |
+Users should independently validate whether the labels and sample composition are suitable for their research question. The dataset does not establish therapeutic effectiveness, learning outcomes, or universal emotional interpretations.
 
-## Methodological Framework
+## Recommended workflow
 
-### Music Selection Criteria
+1. Download the data from the Kaggle page.
+2. Record the dataset version and access date in the experiment log.
+3. Inspect file counts, audio properties, and label balance before training.
+4. Use stratified evaluation where appropriate and report per-label metrics.
+5. Document any excluded, relabeled, or transformed files.
 
-Track selection was guided by established theories in music cognition and educational psychology. Each category represents specific psychological mechanisms:
+## Citation
 
-**Outlook**: Based on research linking melodic fluency and tonal stability to mood enhancement. Selected tracks demonstrate characteristics associated with stress reduction and positive affect, including:
-- Predictable melodic patterns that reduce cognitive load
-- Consonant harmonic progressions that create emotional stability
-- Moderate tempo ranges conducive to relaxation responses
+If you use the dataset, cite the version you accessed:
 
-**Problem-Solving**: Grounded in theories of musical expectation and cognitive flexibility. These tracks feature structural elements that mirror problem-solving processes:
-- Clear presentation of musical "problems" (tensions, dissonances)
-- Logical developmental processes leading to resolution
-- Balanced complexity that engages without overwhelming cognitive resources
+> Xeowa. (2025). *SEM Music Dataset: A Dataset for Social-Emotional Music Classification* (Version 1.0) [Data set]. Kaggle. https://www.kaggle.com/datasets/xeowayeh/social-emotional-music
 
-**Empathetic Perspective-Taking**: Informed by research on musical perspective-taking and social cognition. Selection emphasized:
-- Polyphonic textures requiring attention to multiple musical "voices"
-- Interactive musical elements suggesting dialogue or conversation
-- Emotional narrative arcs that model empathetic responses
+Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
-## Research Applications
+## Authorship and maintenance
 
-The SEM Dataset supports multiple research paradigms:
+**Xeowa** is the dataset author and repository maintainer. Questions, corrections, and reproducibility notes may be submitted through GitHub Issues.
 
-### Primary Applications
-- **Classification Research**: Automatic categorization of music by social-emotional impact  
-- **Music Therapy Studies**: Evidence-based music selection for therapeutic interventions  
-- **Educational Technology**: Intelligent music recommendation for social-emotional learning  
-- **Cognitive Science**: Investigation of music-emotion relationships  
+## Rights and license scope
 
-## Citation and Usage
+The repository documentation, original metadata, and original annotations authored by Xeowa are licensed under [CC BY-NC 4.0](LICENSE), unless a file states otherwise.
 
-If you use the SEM Dataset in your research, please cite:
+Underlying musical compositions, performances, and sound recordings are **not automatically covered** by that repository license. They retain the rights and conditions associated with their original sources. Before redistributing audio or using it beyond the Kaggle access terms, users must review the applicable per-track and platform permissions.
 
-```bibtex
-@dataset{sem_music_dataset_2025,
-  title={SEM Music Dataset: A Dataset for Social-Emotional Music Classification},
-  author={[Authors]},
-  year={2025},
-  publisher={[Publisher]},
-  version={1.0},
-  doi={[DOI_NUMBER]}
-}
-```
-## Acknowledgments
+See [`RIGHTS.md`](RIGHTS.md) for the material-by-material scope. This repository's license notice does not transfer ownership of third-party works or override any existing rights.
 
-This research was supported by [Funding Sources]. We acknowledge the contributions of domain experts in music psychology and education who participated in the annotation process, as well as [Institution] for computational resources and infrastructure support.
+## Limitations
 
-The development of this dataset reflects collaborative efforts across disciplines, demonstrating the value of interdisciplinary approaches to complex research questions at the intersection of music, psychology, and technology.
+- Emotional interpretation is subjective and may vary by listener, culture, and context.
+- The category counts and technical inventory should be checked against the downloaded version before publication of derived results.
+- The collection is not presented as a clinically validated instrument.
+- The labels should not be used to infer mental-health status or other sensitive attributes about individuals.
 
-## Contact
-If you have any questions regarding the SEM Music Dataset or related research, please feel free to contact:  
+## Version history
 
-📧 Prof. Shanken — shanken@cycu.edu.tw
+- **1.0 (2025):** Initial public dataset release.

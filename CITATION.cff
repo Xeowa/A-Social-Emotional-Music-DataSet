@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+type: dataset
+title: "SEM Music Dataset: A Dataset for Social-Emotional Music Classification"
+authors:
+  - name: "Xeowa"
+version: "1.0"
+repository-code: "https://github.com/Xeowa/A-Social-Emotional-Music-DataSet"
+url: "https://www.kaggle.com/datasets/xeowayeh/social-emotional-music"
+abstract: >-
+  A curated collection of 419 music tracks organized into three
+  project-defined social-emotional labels for exploratory music information
+  retrieval, audio classification, and educational-technology research.
+keywords:
+  - music information retrieval
+  - audio classification
+  - social-emotional learning
+  - dataset
+
