@@ -1,19 +1,52 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it using the metadata below."
+message: "If you use this dataset, please cite the dataset and related paper below."
 type: dataset
 title: "SEM Music Dataset: A Dataset for Social-Emotional Music Classification"
 authors:
-  - name: "Xeowa"
+  - family-names: "Yeh"
+    given-names: "Kuang-Kai"
 version: "1.0"
 repository-code: "https://github.com/Xeowa/A-Social-Emotional-Music-DataSet"
 url: "https://www.kaggle.com/datasets/xeowayeh/social-emotional-music"
 abstract: >-
-  A curated collection of 419 music tracks organized into three
-  project-defined social-emotional labels for exploratory music information
-  retrieval, audio classification, and educational-technology research.
+  An expert-annotated collection of 419 music tracks organized into three
+  social-emotional learning labels for music information retrieval, audio
+  classification, and educational-technology research.
 keywords:
   - music information retrieval
   - audio classification
   - social-emotional learning
+  - expert annotation
   - dataset
-
+preferred-citation:
+  type: article
+  title: "LSEL: A lightweight deep learning model for social-emotional classification of classical music"
+  authors:
+    - family-names: "Lin"
+      given-names: "Yuan-Jin"
+    - family-names: "Chou"
+      given-names: "Yu-Chi"
+    - family-names: "Chien"
+      given-names: "Shan-Ken"
+    - family-names: "Chao"
+      given-names: "Pen-Chiang"
+    - family-names: "Yeh"
+      given-names: "Kuang-Kai"
+    - family-names: "Peng"
+      given-names: "Yen-Chia"
+    - family-names: "Tsao"
+      given-names: "Chen-Hao"
+    - family-names: "Chen"
+      given-names: "Chih-Yun"
+    - family-names: "Chen"
+      given-names: "Shih-Lun"
+    - family-names: "Li"
+      given-names: "Kuo-Chen"
+    - family-names: "Tu"
+      given-names: "Wei-Chen"
+  journal: "Machine Learning with Applications"
+  volume: "23"
+  year: 2026
+  month: 3
+  doi: "10.1016/j.mlwa.2025.100832"
+  start: "100832"
