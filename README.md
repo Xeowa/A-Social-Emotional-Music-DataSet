@@ -22,14 +22,20 @@ The study introduces LSEL, a lightweight model that classifies three higher-orde
 
 ## Dataset overview
 
-| Item | Value |
-| --- | --- |
-| Tracks in the public release | 419 WAV files |
-| Approximate duration | 3.5 hours |
-| Approximate download size | 2.5 GB |
-| Reported sample rate | 44.1 kHz |
-| Dataset version | 1.0 |
-| Initial release | 2025 |
+### Release snapshot
+
+- **Collection:** 419 WAV files across three SEL-oriented labels
+- **Audio:** approximately 3.5 hours at a reported 44.1 kHz sample rate
+- **Distribution:** approximately 2.5 GB through the Kaggle release
+- **Version:** 1.0, initially released in 2025
+
+The public release is close to balanced across its three labels: the largest
+class contains 147 tracks and the smallest contains 134. This distribution
+supports straightforward exploratory comparison while still requiring users to
+report any class weighting, resampling, or augmentation applied in downstream
+experiments.
+
+### Label distribution
 
 | Label | Tracks | Operational meaning used in this dataset |
 | --- | ---: | --- |
@@ -37,7 +43,9 @@ The study introduces LSEL, a lightweight model that classifies three higher-orde
 | **Problem-Solving** | 138 | Music selected to represent persistence, reflection, or working through difficulty |
 | **Empathetic Perspective-Taking** | 134 | Music selected to represent emotional understanding or consideration of another perspective |
 
-These labels are research-oriented organizational categories rather than clinical diagnoses or guarantees about an individual listener's response.
+Together, the three rows account for all **419 source tracks** in the public
+release. These labels are research-oriented organizational categories rather
+than clinical diagnoses or guarantees about an individual listener's response.
 
 ## Expert annotation
 
